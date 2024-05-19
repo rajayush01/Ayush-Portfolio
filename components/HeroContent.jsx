@@ -49,7 +49,7 @@ const HeroContent = () => {
                   : "text-5xl sm:text-6xl xl:text-[80px] lg:text-[77px] md:text-5xl"
                 }`}
             >
-              Hello I'm <br className="mb-[10px]" />
+              Hello I&#39;m <br className="mb-[10px]" />
               <span
                 className={`text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ${window.innerWidth < 640
                     ? "text-2xl sm:text-4xl me"
@@ -65,11 +65,11 @@ const HeroContent = () => {
             variants={slideInFromLeft(0.8)}
             className="text-sm sm:text-base xl:text-lg md:text-sm text-gray-400 my-5 max-w-[500px]"
           >
-            I'm a digital artisan, weaving elegance and functionality into every
+            I&#39;m a digital artisan, weaving elegance and functionality into every
             pixel. With a mastery of diverse programming languages and the
             latest technologies, I turn visionary concepts into captivating web
             experiences. <br />
-            Let's create something extraordinary together!
+            Let&#39;s create something extraordinary together!
           </motion.p>
           <div className="flex flex-row gap-5">
             <Link href="/about" passHref>
