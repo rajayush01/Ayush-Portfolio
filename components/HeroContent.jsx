@@ -1,9 +1,8 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-
 
 import Moon from "./Moon";
 import { motion } from "framer-motion";
@@ -17,17 +16,23 @@ import Image from "next/image";
 import Link from "next/link";
 
 const HeroContent = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setIsSmallScreen(window.innerWidth < 640);
+    }
+  }, []);
+
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className={`flex flex-col items-center justify-center xl:mx-[-50px] px-5 w-full z-[20] font-jetbrains xl:mt-10 mt-[50px] sm:mt-[70px] lg:mt-[10px] ${window.innerWidth < 640 ? "content-shift-down" : ""
-        }`}
+      className={`flex flex-col items-center justify-center xl:mx-[-50px] px-5 w-full z-[20] font-jetbrains xl:mt-10 mt-[50px] sm:mt-[70px] lg:mt-[10px] ${isSmallScreen ? "content-shift-down" : ""}`}
     >
       <Moon />
       <div
-        className={`flex flex-col xl:gap-20 justify-center m-auto text-start mt-10 md:flex-row md:items-center md:gap-0 md:mt-[-40px] ${window.innerWidth < 640 ? "content-shift-down" : ""
-          }`}
+        className={`flex flex-col xl:gap-20 justify-center m-auto text-start mt-10 md:flex-row md:items-center md:gap-0 md:mt-[-40px] ${isSmallScreen ? "content-shift-down" : ""}`}
       >
         <div className="md:w-1/2">
           <motion.div
@@ -44,17 +49,11 @@ const HeroContent = () => {
             className="flex flex-col gap-6 text-white max-w-[500px] w-auto h-auto"
           >
             <span
-              className={`font-bold ${window.innerWidth < 640
-                  ? "text-xl sm:text-3xl hello "
-                  : "text-5xl sm:text-6xl xl:text-[80px] lg:text-[77px] md:text-5xl"
-                }`}
+              className={`font-bold ${isSmallScreen ? "text-xl sm:text-3xl hello " : "text-5xl sm:text-6xl xl:text-[80px] lg:text-[77px] md:text-5xl"}`}
             >
               Hello I'm <br className="mb-[10px]" />
               <span
-                className={`text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ${window.innerWidth < 640
-                    ? "text-2xl sm:text-4xl me"
-                    : "text-6xl sm:text-7xl xl:text-[90px] lg:text-[90px] md:text-6xl"
-                  }`}
+                className={`text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ${isSmallScreen ? "text-2xl sm:text-4xl me" : "text-6xl sm:text-7xl xl:text-[90px] lg:text-[90px] md:text-6xl"}`}
               >
                 {" "}
                 Ayush Raj{" "}
