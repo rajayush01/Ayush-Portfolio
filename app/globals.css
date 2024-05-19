@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-primary {
+    font-family: var(--tw-font-primary);
+  }
+
+}
+
+@layer base {
+  body {
+    @apply  leading-loose font-primary top-0 z-[-2] bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))];
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff ;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+}
+
+
+.Welcome-text {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-primary {
+  background: linear-gradient(
+      180deg,
+      rgba(60, 8, 126, 0) 0%,
+      rgba(60, 8, 126, 0.32) 100%
+    ),
+    rgba(113, 47, 255, 0.12);
+  box-shadow: inset 0 0 12px #bf97ff3d;
+}
+.button-primary:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(60, 8, 126, 0) 0%,
+      rgba(60, 8, 126, 0.42) 100%
+    ),
+    rgba(113, 47, 255, 0.24);
+  box-shadow: inset 0 0 12px #bf97ff70;
+}
+
+.content-shift-down {
+  display: flex;
+  flex-direction: column;
+  margin-top: 105px;
+  gap: 15px;
+}
+.hello{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.me{
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.about-up{
+  margin-top: -50px;
+}
+
+/* Styles for small screens */
+@media (max-width: 640px) {
+  #skills {
+    margin-top: -130px;
+  }
+}
+
+@media (min-width:640px) {
+  #skills {
+    margin-top: -140px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container{
+    margin-top: 10px;
+  }
+}
+
