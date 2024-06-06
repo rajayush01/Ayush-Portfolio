@@ -12,7 +12,7 @@ const Work = () => {
       showFullDescription: false
     },
     {
-      src:"/eenshot 2024-05-24 205500.png",
+      src:"/Screenshot 2024-05-24 205500.png",
           title:"ShoppingCart",
           description:"The shopping cart application I developed includes several essential features to enhance user experience and functionality. Users can browse a catalog of products with detailed information, images, and prices, displayed in a grid layout for easy navigation. They can effortlessly add or remove items from their cart, with real-time updates reflecting these changes. The application provides a detailed cart summary, showing item names, quantities, individual prices, and the total amount to be paid. Utilizing Tailwind CSS, the design is fully responsive, ensuring a seamless experience on desktops, tablets, and mobile devices. Redux is employed for efficient state management, maintaining consistency across components. Immediate visual feedback is provided for user actions, enhancing interactivity. The application is also optimized for performance, with lazy loading of images and efficient state management practices, and it has been tested for cross-browser compatibility to ensure a consistent user experience across all major browsers.",
       showFullDescription: false
