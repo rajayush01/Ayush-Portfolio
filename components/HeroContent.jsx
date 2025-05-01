@@ -80,7 +80,7 @@ const HeroContent = () => {
                 Learn More!
               </motion.div>
             </Link>
-            <Link href="https://docs.google.com/document/d/1EJ3o3lmQ0EepDCQe0BW0RHFT1iNVzo8Tj2aMx0zf0uc/edit?usp=sharing" passHref>
+            <Link href="https://drive.google.com/file/d/11ccTmJ3AKF3vUoOF5vvlUsQ17N1n_ySp/view?usp=sharing" passHref>
               <motion.div
                 variants={slideInFromLeft(1)}
                 whileTap={{ scale: 0.9 }}
