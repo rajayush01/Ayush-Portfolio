@@ -37,11 +37,11 @@ const HeroContent = () => {
         <div className="md:w-1/2">
           <motion.div
             variants={slideInFromTop}
-            className="Welcome-box w-[150px] sm:w-[200px] flex flex-row py-[5px] sm:py-[8px] px-[3px] sm:px-[5px] border border-[#7042f88b] opacity-[0.9] mt-[-60px] sm:mt-[-80px] md:py-[3px] sm:py-[3px] md:mt-[-40px]"
+            className="Welcome-box w-[400px] sm:w-[400px] flex flex-row py-[5px] sm:py-[8px] px-[3px] sm:px-[5px] border border-[#7042f88b] opacity-[0.9] mt-[20px] sm:mt-[-80px] md:py-[3px] sm:py-[3px] md:mt-[-40px]"
           >
             <SparklesIcon className="text-[#b49bff] mr-[5px] sm:mr-[10px] h-5 w-5 sm:h-7 sm:w-7 md:h-4 md:w-4 md:mt-1" />
             <h1 className="Welcome-text text-[15px] sm:text-[20px] md:text-[15px]">
-              Web Developer
+              Software Developer, Data Science and ML Engineer
             </h1>
           </motion.div>
           <motion.div
@@ -66,7 +66,7 @@ const HeroContent = () => {
           >
             I'm a digital artisan, weaving elegance and functionality into every
             pixel. With a mastery of diverse programming languages and the
-            latest technologies, I turn visionary concepts into captivating web
+            latest technologies, I turn visionary concepts into captivating
             experiences. <br />
             Let's create something extraordinary together!
           </motion.p>
