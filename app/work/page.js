@@ -5,6 +5,41 @@ import ProjectCard from "@/components/ProjectCard";
 const Work = () => {
   const projects = [
     {
+      src: "/plant-disease.webp",
+      title: "Plant Disease Detection System for Sustainable Agriculture",
+      description:
+        "This system leverages computer vision and machine learning to detect plant diseases from leaf images, aiding farmers in early diagnosis and treatment. Built with Python, TensorFlow, and a deep learning model trained on a diverse dataset, the system predicts plant health with high accuracy. The platform promotes sustainable agriculture by reducing crop loss and improving productivity through timely interventions.",
+      showFullDescription: false
+    },
+    {
+      src: "/qr.jpg",
+      title: "QR-Code Authentication: Detecting Original vs. Counterfeit Prints",
+      description:
+        "This project uses computer vision and machine learning to verify the authenticity of printed QR codes. By analyzing pixel patterns and inconsistencies introduced during unauthorized reproductions, the system can differentiate between genuine and counterfeit prints. It enhances product security in domains like packaging, certifications, and secure tickets.",
+      showFullDescription: false
+    },
+    {
+      src: "/adas.jpg",
+      title: "ADAS-ML Project",
+      description:
+        "An Advanced Driver Assistance System (ADAS) developed using machine learning to enhance vehicle safety. This project includes features like lane detection, object recognition, and driver alertness monitoring. Built using Python, OpenCV, and TensorFlow, it demonstrates real-time image processing and decision-making capabilities for smart transportation.",
+      showFullDescription: false
+    },        
+    {
+      src: "/resq.png",
+      title: "RESQ",
+      description:
+        "RESQ is a disaster response and coordination platform designed to connect people in need with emergency services and volunteers. Built using React, it features real-time updates, an intuitive interface, and smooth animations powered by Framer Motion. Tailwind CSS ensures the platform is responsive and user-friendly across all devices.",
+      showFullDescription: false
+    },
+    {
+      src: "/placement-gateway.png",
+      title: "Placement Gateway",
+      description:
+        "Placement Gateway is a centralized platform aimed at streamlining campus recruitment processes. It allows students to manage applications, view job listings, and receive real-time updates. Developed using React with React Router for seamless navigation and Framer Motion for interactive UI effects. Tailwind CSS enhances its design with a modern, responsive layout.",
+      showFullDescription: false
+    },    
+    {
       src: "/Learnopia.png",
       title: "Learnopia",
       description:
@@ -12,9 +47,9 @@ const Work = () => {
       showFullDescription: false
     },
     {
-      src:"/Screenshot 2024-05-24 205500.png",
-          title:"ShoppingCart",
-          description:"The shopping cart application I developed includes several essential features to enhance user experience and functionality. Users can browse a catalog of products with detailed information, images, and prices, displayed in a grid layout for easy navigation. They can effortlessly add or remove items from their cart, with real-time updates reflecting these changes. The application provides a detailed cart summary, showing item names, quantities, individual prices, and the total amount to be paid. Utilizing Tailwind CSS, the design is fully responsive, ensuring a seamless experience on desktops, tablets, and mobile devices. Redux is employed for efficient state management, maintaining consistency across components. Immediate visual feedback is provided for user actions, enhancing interactivity. The application is also optimized for performance, with lazy loading of images and efficient state management practices, and it has been tested for cross-browser compatibility to ensure a consistent user experience across all major browsers.",
+      src:"/ecommerce.png",
+          title:"FashionFusion",
+          description:"Crafted with the artistry of HTML, CSS, and JavaScript, this visionary project unveils a captivating online FashionFusion website. Three enigmatic tabs – Men, Women, and Kids – beckon you to indulge in curated collections, where every click unveils a realm of sartorial splendor. Integrating an ingenious API, each product card breathes authenticity, from alluring imagery to tantalizing prices. With JavaScript's mastery, discounts transcend mere numbers, transforming each card into an irresistible invitation to unparalleled savings.",
       showFullDescription: false
     },
     {
@@ -51,8 +86,7 @@ const Work = () => {
     {
       src:"/port.png",
       title:"Portfolio(OLD)",
-      description:"This is my personal portfolio website, showcasing my skills and projects in web development. Built using HTML, CSS, and JavaScript, this website features a responsive design and interactive elements. Explore my projects, learn about my skills, and get in touch with me through this website."
-,
+      description:"This is my personal portfolio website, showcasing my skills and projects in web development. Built using HTML, CSS, and JavaScript, this website features a responsive design and interactive elements. Explore my projects, learn about my skills, and get in touch with me through this website.",
       showFullDescription: false
     },
     {
