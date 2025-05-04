@@ -5,29 +5,30 @@ import React from 'react';
 const services = [
   {
     num: '01',
-    title: 'Web Development',
-    description: 'Transforming ideas into digital masterpieces, I craft immersive, responsive web experiences with cutting-edge technologies like Next js, React js, Node js, HTML, Tailwind CSS and many more. My passion lies in blending creativity with technical prowess to deliver websites that captivate and engage users on every device.',
+    title: 'Software Development',
+    description: 'Building reliable and scalable software solutions tailored to business needs. With strong expertise in full-stack development, I design and implement robust systems using modern technologies, ensuring high performance, maintainability, and seamless user experiences.',
     href: "/work"
   },
   {
     num: '02',
-    title: 'UI/UX Design',
-    description: 'Designing intuitive and visually stunning interfaces, I create user experiences that seamlessly blend form and function. Leveraging tools like Figma,Canva and Adobe XD, I bring a meticulous eye for detail and a passion for innovation to every project, ensuring each design is not only beautiful but also highly user-friendly',
+    title: 'Machine Learning',
+    description: 'Turning data into intelligence, I develop ML models that learn from patterns and make accurate predictions. From data preprocessing to model deployment, I harness tools like Python, Scikit-learn, TensorFlow, and more to build solutions that automate and optimize decision-making processes.',
     href: ""
   },
   {
     num: '03',
-    title: 'Coder',
-    description: 'Passionate about coding, I bring ideas to life through clean, efficient, and scalable code. With expertise in languages like C/C++, Java, JavaScript, and Python, I solve complex problems and build robust applications. Continuously learning and adapting, I strive for excellence in every line of code, ensuring innovative solutions that drive success.',
+    title: 'Data Science',
+    description: 'Driven by curiosity and data, I uncover actionable insights from complex datasets. Using Python, Pandas, NumPy, and visualization tools like Matplotlib and Power BI, I help businesses make informed decisions with data-backed storytelling and deep analytics.',
     href: ""
   },
   {
     num: '04',
-    title: 'SEO',
-    description: 'Optimizing for success, I specialize in enhancing online visibility through strategic SEO practices. By leveraging keyword research, on-page optimization, and insightful analytics, I drive organic traffic and boost search engine rankings, ensuring your digital presence stands out in a competitive landscape',
+    title: 'Web Development',
+    description: 'Transforming ideas into digital experiences, I build fast, responsive, and interactive websites using technologies like React.js, Next.js, Tailwind CSS, and Node.js. I focus on clean design and functionality that captivates users and scales effortlessly.',
     href: ""
   }
 ];
+
 
 import { motion } from "framer-motion";
 
