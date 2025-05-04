@@ -28,8 +28,8 @@ const links = [
         icon: <HiViewColumns />,
     },
     {
-        name: 'testimonials',
-        path: '/testimonials',
+        name: 'experience',
+        path: '/experience',
         icon: <HiChatBubbleBottomCenterText />,
     },
     {
