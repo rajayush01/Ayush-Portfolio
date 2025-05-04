@@ -1,10 +1,10 @@
 "use client"
 import {
-  Backend_skill,
+  Programming_skill,
   Frontend_skill,
-  Full_stack,
+  UIDesignandTools,
   Other_skill,
-  Skill_data,
+  AiDataScience_skill,
 } from "@/constants";
 import React from "react";
 import SkillText from "@/components/SkillText" ;
@@ -20,7 +20,7 @@ const about = () => {
       <SkillText />
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Skill_data.map((image, index) => (
+        {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -32,7 +32,7 @@ const about = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
+        {AiDataScience_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -43,7 +43,7 @@ const about = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Backend_skill.map((image, index) => (
+        {Programming_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -54,7 +54,7 @@ const about = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Full_stack.map((image, index) => (
+        {UIDesignandTools.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
